@@ -1,0 +1,5 @@
+{
+  "name": "AI Guardrails Explorer",
+  "description": "An interactive visualization of the multi-layered AI safety and governance ecosystem, featuring a live demonstration using Google Gemini API safety filters.",
+  "requestFramePermissions": []
+}
