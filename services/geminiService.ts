@@ -35,3 +35,10 @@ export const checkGuardrails = async (prompt: string): Promise<{ text: string; s
     };
   }
 };
+
+export const streamGuardrails = async (prompt: string) => {
+  return await ai.models.generateContentStream({
+    model: 'gemini-2.5-flash',
+    contents: prompt,
+  });
+};
